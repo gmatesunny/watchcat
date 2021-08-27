@@ -1,5 +1,6 @@
-# Prerequisites
-*.d
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
 # Compiled Object files
 *.slo
@@ -30,3 +31,38 @@
 *.exe
 *.out
 *.app
+
+# Python Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.manifest
+*.spec
+
+# Java
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Eclipse
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+# Visual Studio Code
+.vscode/
+.code-workspace
+
+build/
