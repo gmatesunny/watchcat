@@ -64,7 +64,7 @@ The followng diagram shows the class UML diagram.
 
 ![Class UML](docs/img/classStructure.png)
 
-The events are placed in the vector datastucture. The id's and next invocation time of the events is maintained in a self ordered set. The events are executed on a worker thread instead of spawning a new theread for each invocation.
+The events are placed in the `vector`. The id's and next invocation time of the events is maintained in a self ordered `set`. The events are executed on a worker thread instead of spawning a new theread for each invocation.
 
 
 ##### Note: Please star the project if you find watchcat useful or used in your project.
