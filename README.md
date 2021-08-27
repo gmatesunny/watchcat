@@ -1,2 +1,2 @@
-# watchcat
-An open-source C++11 timer library exposing API in C++, Python and others.
+# watchcat: Yet Another Watchdog Library 
+An open-source C++11 timer exposing API in C++, Python and other programming language.
