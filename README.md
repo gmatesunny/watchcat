@@ -9,7 +9,7 @@ An open-source thread-safe C++11 timer exposing APIs in C++, Python2 and Java pr
     cmake ..
     make
 
-### Build the interface for Python2 and Java  
+### Build the APIs for Python2 and Java  
     cd swig
     bash ./generate.sh
 
