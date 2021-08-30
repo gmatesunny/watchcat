@@ -21,7 +21,7 @@ An open-source thread-safe C++11 timer exposing APIs in C++, Python2 and Java pr
 
 ### Ussage
 
-* Adapt `libwatchcat/CMkakeLists.txt` to build to create `SHARED` or `STATIC` library as per your custom project need and then add `add_subdirectory(libwatchcat)` your root `CMkakeLists.txt` file
+* Adapt `libwatchcat/CMkakeLists.txt` to build `SHARED` or `STATIC` library as per your custom project need and then add `add_subdirectory(libwatchcat)` your root `CMkakeLists.txt` file
 
 * It could be used as a header only library for C++11 without the need to create `SHARED` or `STATIC` library. You only need to include `libwatchcat/timer.hpp` and `libwatchcat/time.cpp` files in your custom project. 
 
