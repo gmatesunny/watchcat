@@ -71,7 +71,6 @@ The events are placed in the `vector`. The id's and next invocation time of the 
 
 ### License
 Copyright (c) Kumar Roshan Mehta (gmate.sunny@gmail.com)
-
 Distributed under the MIT License (MIT) (See accompanying file LICENSE.txt or copy at http://opensource.org/licenses/MIT)
 
 ##### Note: Please star the project if you find watchcat useful or used in your project.
