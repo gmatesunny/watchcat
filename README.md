@@ -1,4 +1,4 @@
-# Watchcat: Yet Another Watchdog Library 
+# Watchcat: Yet Another Timer Library 
 An open-source thread-safe C++11 timer exposing APIs in C++, Python2 and Java programming language. It provides a simple to use and easy to understand interface. This project does not depends on any third-party library and uses modern C++.
 
 ![Class UML](docs/img/banner.jpg)
