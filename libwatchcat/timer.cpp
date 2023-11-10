@@ -24,7 +24,7 @@ void Timer::Run()
         m_eventsList[te.eventID].isExecuted = true;
         if (m_eventsList[te.eventID].isActive && m_eventsList[te.eventID].isRepeated)
         {
-          te.nextTimepoint += std::chrono::duration_cast<std::chrono::seconds>(m_eventsList[te.eventID].timeout);
+          te.nextTimepoint += m_eventsList[te.eventID].timeout;
           m_activeTimeEventSet.insert(te);
         }
         else
