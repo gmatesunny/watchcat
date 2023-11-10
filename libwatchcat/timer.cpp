@@ -1,3 +1,4 @@
+
 #include "timer.hpp"
 
 using namespace watchcat;
@@ -225,5 +226,3 @@ bool Timer::DeactivateAllEvent()
   m_condition.notify_all();
   return true;
 }
-
-
